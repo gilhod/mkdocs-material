@@ -1,0 +1,588 @@
+
+<!doctype html>
+<html lang="en" class="no-js">
+  <head>
+    
+      <meta charset="utf-8">
+      <meta name="viewport" content="width=device-width,initial-scale=1">
+      
+      
+      
+      
+        <link rel="prev" href="..">
+      
+      
+        <link rel="next" href="../cb-es/">
+      
+      
+      <link rel="icon" href="../assets/images/favicon.png">
+      <meta name="generator" content="mkdocs-1.5.3, mkdocs-material-9.4.7">
+    
+    
+      
+        <title>Caffeine - My Docs</title>
+      
+    
+    
+      <link rel="stylesheet" href="../assets/stylesheets/main.4b4a2bd9.min.css">
+      
+        
+        <link rel="stylesheet" href="../assets/stylesheets/palette.356b1318.min.css">
+      
+      
+
+
+    
+    
+      
+    
+    
+      
+        
+        
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:300,300i,400,400i,700,700i%7CRoboto+Mono:400,400i,700,700i&display=fallback">
+        <style>:root{--md-text-font:"Roboto";--md-code-font:"Roboto Mono"}</style>
+      
+    
+    
+    <script>__md_scope=new URL("..",location),__md_hash=e=>[...e].reduce((e,_)=>(e<<5)-e+_.charCodeAt(0),0),__md_get=(e,_=localStorage,t=__md_scope)=>JSON.parse(_.getItem(t.pathname+"."+e)),__md_set=(e,_,t=localStorage,a=__md_scope)=>{try{t.setItem(a.pathname+"."+e,JSON.stringify(_))}catch(e){}}</script>
+    
+      
+
+    
+    
+    
+  </head>
+  
+  
+    
+    
+      
+    
+    
+    
+    
+    <body dir="ltr" data-md-color-scheme="default" data-md-color-primary="teal" data-md-color-accent="purple">
+  
+    
+    
+      <script>var palette=__md_get("__palette");if(palette&&"object"==typeof palette.color)for(var key of Object.keys(palette.color))document.body.setAttribute("data-md-color-"+key,palette.color[key])</script>
+    
+    <input class="md-toggle" data-md-toggle="drawer" type="checkbox" id="__drawer" autocomplete="off">
+    <input class="md-toggle" data-md-toggle="search" type="checkbox" id="__search" autocomplete="off">
+    <label class="md-overlay" for="__drawer"></label>
+    <div data-md-component="skip">
+      
+        
+        <a href="#cache" class="md-skip">
+          Skip to content
+        </a>
+      
+    </div>
+    <div data-md-component="announce">
+      
+    </div>
+    
+    
+      
+
+<header class="md-header" data-md-component="header">
+  <nav class="md-header__inner md-grid" aria-label="Header">
+    <a href=".." title="My Docs" class="md-header__button md-logo" aria-label="My Docs" data-md-component="logo">
+      
+  
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 8a3 3 0 0 0 3-3 3 3 0 0 0-3-3 3 3 0 0 0-3 3 3 3 0 0 0 3 3m0 3.54C9.64 9.35 6.5 8 3 8v11c3.5 0 6.64 1.35 9 3.54 2.36-2.19 5.5-3.54 9-3.54V8c-3.5 0-6.64 1.35-9 3.54Z"/></svg>
+
+    </a>
+    <label class="md-header__button md-icon" for="__drawer">
+      
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M3 6h18v2H3V6m0 5h18v2H3v-2m0 5h18v2H3v-2Z"/></svg>
+    </label>
+    <div class="md-header__title" data-md-component="header-title">
+      <div class="md-header__ellipsis">
+        <div class="md-header__topic">
+          <span class="md-ellipsis">
+            My Docs
+          </span>
+        </div>
+        <div class="md-header__topic" data-md-component="header-topic">
+          <span class="md-ellipsis">
+            
+              Caffeine
+            
+          </span>
+        </div>
+      </div>
+    </div>
+    
+      
+        <form class="md-header__option" data-md-component="palette">
+  
+    
+    
+    
+    <input class="md-option" data-md-color-media="" data-md-color-scheme="default" data-md-color-primary="teal" data-md-color-accent="purple"  aria-label="Switch to dark mode"  type="radio" name="__palette" id="__palette_1">
+    
+      <label class="md-header__button md-icon" title="Switch to dark mode" for="__palette_2" hidden>
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M17 6H7c-3.31 0-6 2.69-6 6s2.69 6 6 6h10c3.31 0 6-2.69 6-6s-2.69-6-6-6zm0 10H7c-2.21 0-4-1.79-4-4s1.79-4 4-4h10c2.21 0 4 1.79 4 4s-1.79 4-4 4zM7 9c-1.66 0-3 1.34-3 3s1.34 3 3 3 3-1.34 3-3-1.34-3-3-3z"/></svg>
+      </label>
+    
+  
+    
+    
+    
+    <input class="md-option" data-md-color-media="" data-md-color-scheme="slate" data-md-color-primary="teal" data-md-color-accent="lime"  aria-label="Switch to light mode"  type="radio" name="__palette" id="__palette_2">
+    
+      <label class="md-header__button md-icon" title="Switch to light mode" for="__palette_1" hidden>
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M17 7H7a5 5 0 0 0-5 5 5 5 0 0 0 5 5h10a5 5 0 0 0 5-5 5 5 0 0 0-5-5m0 8a3 3 0 0 1-3-3 3 3 0 0 1 3-3 3 3 0 0 1 3 3 3 3 0 0 1-3 3Z"/></svg>
+      </label>
+    
+  
+</form>
+      
+    
+    
+    
+      <label class="md-header__button md-icon" for="__search">
+        
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.516 6.516 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5Z"/></svg>
+      </label>
+      <div class="md-search" data-md-component="search" role="dialog">
+  <label class="md-search__overlay" for="__search"></label>
+  <div class="md-search__inner" role="search">
+    <form class="md-search__form" name="search">
+      <input type="text" class="md-search__input" name="query" aria-label="Search" placeholder="Search" autocapitalize="off" autocorrect="off" autocomplete="off" spellcheck="false" data-md-component="search-query" required>
+      <label class="md-search__icon md-icon" for="__search">
+        
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.516 6.516 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5Z"/></svg>
+        
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11h12Z"/></svg>
+      </label>
+      <nav class="md-search__options" aria-label="Search">
+        
+        <button type="reset" class="md-search__icon md-icon" title="Clear" aria-label="Clear" tabindex="-1">
+          
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M19 6.41 17.59 5 12 10.59 6.41 5 5 6.41 10.59 12 5 17.59 6.41 19 12 13.41 17.59 19 19 17.59 13.41 12 19 6.41Z"/></svg>
+        </button>
+      </nav>
+      
+        <div class="md-search__suggest" data-md-component="search-suggest"></div>
+      
+    </form>
+    <div class="md-search__output">
+      <div class="md-search__scrollwrap" data-md-scrollfix>
+        <div class="md-search-result" data-md-component="search-result">
+          <div class="md-search-result__meta">
+            Initializing search
+          </div>
+          <ol class="md-search-result__list" role="presentation"></ol>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+    
+    
+  </nav>
+  
+</header>
+    
+    <div class="md-container" data-md-component="container">
+      
+      
+        
+          
+            
+<nav class="md-tabs" aria-label="Tabs" data-md-component="tabs">
+  <div class="md-grid">
+    <ul class="md-tabs__list">
+      
+        
+  
+  
+  
+    <li class="md-tabs__item">
+      <a href=".." class="md-tabs__link">
+        
+  
+    
+  
+  Getting started
+
+      </a>
+    </li>
+  
+
+      
+        
+  
+  
+    
+  
+  
+    <li class="md-tabs__item md-tabs__item--active">
+      <a href="./" class="md-tabs__link">
+        
+  
+    
+  
+  Caffeine
+
+      </a>
+    </li>
+  
+
+      
+        
+  
+  
+  
+    <li class="md-tabs__item">
+      <a href="../cb-es/" class="md-tabs__link">
+        
+  
+    
+  
+  Cb es
+
+      </a>
+    </li>
+  
+
+      
+    </ul>
+  </div>
+</nav>
+          
+        
+      
+      <main class="md-main" data-md-component="main">
+        <div class="md-main__inner md-grid">
+          
+            
+              
+              <div class="md-sidebar md-sidebar--primary" data-md-component="sidebar" data-md-type="navigation" >
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+
+
+  
+
+
+  
+
+<nav class="md-nav md-nav--primary md-nav--lifted md-nav--integrated" aria-label="Navigation" data-md-level="0">
+  <label class="md-nav__title" for="__drawer">
+    <a href=".." title="My Docs" class="md-nav__button md-logo" aria-label="My Docs" data-md-component="logo">
+      
+  
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 8a3 3 0 0 0 3-3 3 3 0 0 0-3-3 3 3 0 0 0-3 3 3 3 0 0 0 3 3m0 3.54C9.64 9.35 6.5 8 3 8v11c3.5 0 6.64 1.35 9 3.54 2.36-2.19 5.5-3.54 9-3.54V8c-3.5 0-6.64 1.35-9 3.54Z"/></svg>
+
+    </a>
+    My Docs
+  </label>
+  
+  <ul class="md-nav__list" data-md-scrollfix>
+    
+      
+      
+  
+  
+  
+    <li class="md-nav__item">
+      <a href=".." class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Getting started
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+    
+  
+  
+    <li class="md-nav__item md-nav__item--active">
+      
+      <input class="md-nav__toggle md-toggle" type="checkbox" id="__toc">
+      
+      
+      
+        <label class="md-nav__link md-nav__link--active" for="__toc">
+          
+  
+  <span class="md-ellipsis">
+    Caffeine
+  </span>
+  
+
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <a href="./" class="md-nav__link md-nav__link--active">
+        
+  
+  <span class="md-ellipsis">
+    Caffeine
+  </span>
+  
+
+      </a>
+      
+        
+
+<nav class="md-nav md-nav--secondary" aria-label="Table of contents">
+  
+  
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Table of contents
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#cache" class="md-nav__link">
+    Cache
+  </a>
+  
+    <nav class="md-nav" aria-label="Cache">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#features-at-a-glance" class="md-nav__link">
+    Features at a Glance
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#in-the-news" class="md-nav__link">
+    In the News
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#download" class="md-nav__link">
+    Download
+  </a>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../cb-es/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Cb es
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+    
+  </ul>
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+            
+          
+          
+            <div class="md-content" data-md-component="content">
+              <article class="md-content__inner md-typeset">
+                
+                  
+
+
+  <h1>Caffeine</h1>
+
+<p><a href="https://github.com/ben-manes/caffeine/actions?query=workflow%3Abuild+branch%3Amaster"><img alt="Build Status" src="https://github.com/ben-manes/caffeine/workflows/build/badge.svg" /></a>
+<a href="https://github.com/ben-manes/caffeine/actions?query=workflow%3Abuild+branch%3Amaster"><img alt="Test Count" src="https://gist.githubusercontent.com/ben-manes/c20eb418f0e0bd6dfe1c25beb35faae4/raw/badge.svg" /></a>
+<a href="https://coveralls.io/r/ben-manes/caffeine?branch=master"><img alt="Coverage Status" src="https://img.shields.io/coveralls/ben-manes/caffeine.svg" /></a>
+<a href="https://maven-badges.herokuapp.com/maven-central/com.github.ben-manes.caffeine/caffeine"><img alt="Maven Central" src="https://maven-badges.herokuapp.com/maven-central/com.github.ben-manes.caffeine/caffeine/badge.svg" /></a>
+<a href="http://www.javadoc.io/doc/com.github.ben-manes.caffeine/caffeine"><img alt="JavaDoc" src="https://www.javadoc.io/badge/com.github.ben-manes.caffeine/caffeine.svg" /></a>
+<a href="http://www.apache.org/licenses/LICENSE-2.0.html"><img alt="License" src="https://img.shields.io/:license-apache-brightgreen.svg" /></a>
+<a href="http://stackoverflow.com/questions/tagged/caffeine"><img alt="Stack Overflow" src="https://img.shields.io/:stack%20overflow-caffeine-brightgreen.svg" /></a>
+<a href="https://caffeine.gradle-enterprise.cloud/scans"><img alt="Revved up by Develocity" src="https://img.shields.io/badge/Revved%20up%20by-Develocity-06A0CE?logo=Gradle&amp;labelColor=02303A" /></a>
+<a href="https://github.com/ben-manes/caffeine/wiki">
+<img align="right" height="90px" src="https://raw.githubusercontent.com/ben-manes/caffeine/master/wiki/logo.png">
+</a></p>
+<p>Caffeine is a <a href="https://github.com/ben-manes/caffeine/wiki/Benchmarks">high performance</a>, <a href="https://github.com/ben-manes/caffeine/wiki/Efficiency">near optimal</a> caching library. For more
+details, see our <a href="https://github.com/ben-manes/caffeine/wiki">user's guide</a> and browse the <a href="http://www.javadoc.io/doc/com.github.ben-manes.caffeine/caffeine">API docs</a> for the latest
+release.</p>
+<h3 id="cache">Cache</h3>
+<p>Caffeine provides an in-memory cache using a Google Guava inspired API. The improvements draw on our
+experience designing <a href="https://github.com/google/guava/wiki/CachesExplained">Guava's cache</a> and <a href="https://github.com/ben-manes/concurrentlinkedhashmap">ConcurrentLinkedHashMap</a>.</p>
+<div class="highlight"><pre><span></span><code><a id="__codelineno-0-1" name="__codelineno-0-1" href="#__codelineno-0-1"></a><span class="n">LoadingCache</span><span class="o">&lt;</span><span class="n">Key</span><span class="p">,</span><span class="w"> </span><span class="n">Graph</span><span class="o">&gt;</span><span class="w"> </span><span class="n">graphs</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="n">Caffeine</span><span class="p">.</span><span class="na">newBuilder</span><span class="p">()</span>
+<a id="__codelineno-0-2" name="__codelineno-0-2" href="#__codelineno-0-2"></a><span class="w">    </span><span class="p">.</span><span class="na">maximumSize</span><span class="p">(</span><span class="mi">10_000</span><span class="p">)</span>
+<a id="__codelineno-0-3" name="__codelineno-0-3" href="#__codelineno-0-3"></a><span class="w">    </span><span class="p">.</span><span class="na">expireAfterWrite</span><span class="p">(</span><span class="n">Duration</span><span class="p">.</span><span class="na">ofMinutes</span><span class="p">(</span><span class="mi">5</span><span class="p">))</span>
+<a id="__codelineno-0-4" name="__codelineno-0-4" href="#__codelineno-0-4"></a><span class="w">    </span><span class="p">.</span><span class="na">refreshAfterWrite</span><span class="p">(</span><span class="n">Duration</span><span class="p">.</span><span class="na">ofMinutes</span><span class="p">(</span><span class="mi">1</span><span class="p">))</span>
+<a id="__codelineno-0-5" name="__codelineno-0-5" href="#__codelineno-0-5"></a><span class="w">    </span><span class="p">.</span><span class="na">build</span><span class="p">(</span><span class="n">key</span><span class="w"> </span><span class="o">-&gt;</span><span class="w"> </span><span class="n">createExpensiveGraph</span><span class="p">(</span><span class="n">key</span><span class="p">));</span>
+</code></pre></div>
+<h4 id="features-at-a-glance">Features at a Glance</h4>
+<p>Caffeine provides flexible construction to create a cache with a combination of the following
+optional features:</p>
+<ul>
+<li><a href="https://github.com/ben-manes/caffeine/wiki/Population">automatic loading of entries</a> into the cache, optionally asynchronously</li>
+<li><a href="https://github.com/ben-manes/caffeine/wiki/Eviction#size-based">size-based eviction</a> when a maximum is exceeded based on <a href="https://github.com/ben-manes/caffeine/wiki/Efficiency">frequency and recency</a></li>
+<li><a href="https://github.com/ben-manes/caffeine/wiki/Eviction#time-based">time-based expiration</a> of entries, measured since last access or last write</li>
+<li><a href="https://github.com/ben-manes/caffeine/wiki/Refresh">asynchronously refresh</a> when the first stale request for an entry occurs</li>
+<li>keys automatically wrapped in <a href="https://github.com/ben-manes/caffeine/wiki/Eviction#reference-based">weak references</a></li>
+<li>values automatically wrapped in <a href="https://github.com/ben-manes/caffeine/wiki/Eviction#reference-based">weak or soft references</a></li>
+<li><a href="https://github.com/ben-manes/caffeine/wiki/Removal">notification</a> of evicted (or otherwise removed) entries</li>
+<li><a href="https://github.com/ben-manes/caffeine/wiki/Compute">writes propagated</a> to an external resource</li>
+<li>accumulation of cache access <a href="https://github.com/ben-manes/caffeine/wiki/Statistics">statistics</a></li>
+</ul>
+<p>In addition, Caffeine offers the following extensions:</p>
+<ul>
+<li><a href="https://github.com/ben-manes/caffeine/wiki/JCache">JSR-107 JCache</a></li>
+<li><a href="https://github.com/ben-manes/caffeine/wiki/Guava">Guava adapters</a></li>
+<li><a href="https://github.com/ben-manes/caffeine/wiki/Simulator">Simulation</a></li>
+</ul>
+<p>Use Caffeine in a community provided integration:</p>
+<ul>
+<li><a href="https://www.playframework.com/documentation/latest/JavaCache">Play Framework</a>: High velocity web framework</li>
+<li><a href="https://docs.micronaut.io/latest/guide/index.html#caching">Micronaut</a>: A modern, full-stack framework</li>
+<li><a href="https://docs.spring.io/spring/docs/current/spring-framework-reference/integration.html#cache-store-configuration-caffeine">Spring Cache</a>: As of Spring 4.3 &amp; Boot 1.4</li>
+<li><a href="https://quarkus.io">Quarkus</a>: Supersonic Subatomic Java</li>
+<li><a href="https://github.com/blemale/scaffeine">Scaffeine</a>: Scala wrapper for Caffeine</li>
+<li><a href="https://github.com/cb372/scalacache">ScalaCache</a>: Simple caching in Scala</li>
+<li><a href="https://github.com/apache/camel/blob/master/components/camel-caffeine/src/main/docs/caffeine-cache-component.adoc">Camel</a>: Routing and mediation engine</li>
+<li><a href="https://www.jhipster.tech/">JHipster</a>: Generate, develop, deploy</li>
+<li><a href="https://github.com/sksamuel/aedile">Aedile</a>: Kotlin wrapper for Caffeine</li>
+</ul>
+<p>Powering infrastructure near you:</p>
+<ul>
+<li><a href="https://www.dropwizard.io">Dropwizard</a>: Ops-friendly, high-performance, RESTful APIs</li>
+<li><a href="http://cassandra.apache.org">Cassandra</a>: Manage massive amounts of data, fast</li>
+<li><a href="https://docs.oracle.com/en/middleware/standalone/coherence/14.1.1.2206/develop-applications/implementing-storage-and-backing-maps.html#GUID-260228C2-371A-4B91-9024-8D6514DD4B78">Coherence</a>: Mission critical in-memory data grid</li>
+<li><a href="https://accumulo.apache.org">Accumulo</a>: A sorted, distributed key/value store</li>
+<li><a href="https://kafka.apache.org">Kafka</a>: A distributed event streaming platform</li>
+<li><a href="https://hbase.apache.org">HBase</a>: A distributed, scalable, big data store</li>
+<li><a href="https://solr.apache.org/">Apache Solr</a>: Blazingly fast enterprise search</li>
+<li><a href="https://infinispan.org">Infinispan</a>: Distributed in-memory data grid</li>
+<li><a href="https://github.com/redisson/redisson">Redisson</a>: Ultra-fast in-memory data grid</li>
+<li><a href="https://openwhisk.apache.org/">OpenWhisk</a>: Serverless cloud platform</li>
+<li><a href="https://github.com/CorfuDB/CorfuDB">Corfu</a>: A cluster consistency platform</li>
+<li><a href="https://grails.org">Grails</a>: Groovy-based web framework</li>
+<li><a href="https://github.com/twitter/finagle">Finagle</a>: Extensible RPC system</li>
+<li><a href="https://github.com/neo4j/neo4j">Neo4j</a>: Graphs for Everyone</li>
+<li><a href="https://druid.apache.org/docs/latest/configuration/index.html#cache-configuration">Druid</a>: Real-time analytics</li>
+</ul>
+<h3 id="in-the-news">In the News</h3>
+<ul>
+<li>An in-depth description of Caffeine's architecture.<ul>
+<li><a href="http://highscalability.com/blog/2016/1/25/design-of-a-modern-cache.html">Design of a Modern Cache: part #1</a>, <a href="http://highscalability.com/blog/2019/2/25/design-of-a-modern-cachepart-deux.html">part #2</a>
+  (<a href="https://docs.google.com/presentation/d/1NlDxyXsUG1qlVHMl4vsUUBQfAJ2c2NsFPNPr2qymIBs">slides</a>) at <a href="http://highscalability.com">HighScalability</a></li>
+</ul>
+</li>
+<li>Caffeine is presented as part of research papers evaluating its novel eviction policy.<ul>
+<li><a href="https://dl.acm.org/doi/10.1145/3149371?cid=99659224047">TinyLFU: A Highly Efficient Cache Admission Policy</a>
+  by Gil Einziger, Roy Friedman, Ben Manes</li>
+<li><a href="https://dl.acm.org/doi/10.1145/3274808.3274816?cid=99659224047">Adaptive Software Cache Management</a>
+  by Gil Einziger, Ohad Eytan, Roy Friedman, Ben Manes</li>
+<li><a href="https://dl.acm.org/doi/10.1145/3507920?cid=99659224047">Lightweight Robust Size Aware Cache Management</a>
+  by Gil Einziger, Ohad Eytan, Roy Friedman, Ben Manes</li>
+</ul>
+</li>
+</ul>
+<h3 id="download">Download</h3>
+<p>Download from <a href="https://maven-badges.herokuapp.com/maven-central/com.github.ben-manes.caffeine/caffeine">Maven Central</a> or depend via Gradle:</p>
+<div class="highlight"><pre><span></span><code><a id="__codelineno-1-1" name="__codelineno-1-1" href="#__codelineno-1-1"></a>implementation(&quot;com.github.ben-manes.caffeine:caffeine:3.1.8&quot;)
+<a id="__codelineno-1-2" name="__codelineno-1-2" href="#__codelineno-1-2"></a>
+<a id="__codelineno-1-3" name="__codelineno-1-3" href="#__codelineno-1-3"></a>// Optional extensions
+<a id="__codelineno-1-4" name="__codelineno-1-4" href="#__codelineno-1-4"></a>implementation(&quot;com.github.ben-manes.caffeine:guava:3.1.8&quot;)
+<a id="__codelineno-1-5" name="__codelineno-1-5" href="#__codelineno-1-5"></a>implementation(&quot;com.github.ben-manes.caffeine:jcache:3.1.8&quot;)
+</code></pre></div>
+<p>For Java 11 or above, use <code>3.x</code> otherwise use <code>2.x</code>.</p>
+<p>See the <a href="https://github.com/ben-manes/caffeine/releases">release notes</a> for details of the changes.</p>
+<p>Snapshots of the development version are available in
+<a href="https://oss.sonatype.org/content/repositories/snapshots/com/github/ben-manes/caffeine/">Sonatype's snapshots repository</a>.</p>
+
+
+
+
+
+                
+              </article>
+            </div>
+          
+          
+  <script>var tabs=__md_get("__tabs");if(Array.isArray(tabs))e:for(var set of document.querySelectorAll(".tabbed-set")){var tab,labels=set.querySelector(".tabbed-labels");for(tab of tabs)for(var label of labels.getElementsByTagName("label"))if(label.innerText.trim()===tab){var input=document.getElementById(label.htmlFor);input.checked=!0;continue e}}</script>
+
+        </div>
+        
+          <button type="button" class="md-top md-icon" data-md-component="top" hidden>
+  
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M13 20h-2V8l-5.5 5.5-1.42-1.42L12 4.16l7.92 7.92-1.42 1.42L13 8v12Z"/></svg>
+  Back to top
+</button>
+        
+      </main>
+      
+        <footer class="md-footer">
+  
+  <div class="md-footer-meta md-typeset">
+    <div class="md-footer-meta__inner md-grid">
+      <div class="md-copyright">
+  
+  
+    Made with
+    <a href="https://squidfunk.github.io/mkdocs-material/" target="_blank" rel="noopener">
+      Material for MkDocs
+    </a>
+  
+</div>
+      
+    </div>
+  </div>
+</footer>
+      
+    </div>
+    <div class="md-dialog" data-md-component="dialog">
+      <div class="md-dialog__inner md-typeset"></div>
+    </div>
+    
+    
+    <script id="__config" type="application/json">{"base": "..", "features": ["navigation.tabs", "navigation.sections", "toc.integrate", "navigation.top", "search.suggest", "search.highlight", "content.tabs.link", "content.code.annotation", "content.code.copy"], "search": "../assets/javascripts/workers/search.f886a092.min.js", "translations": {"clipboard.copied": "Copied to clipboard", "clipboard.copy": "Copy to clipboard", "search.result.more.one": "1 more on this page", "search.result.more.other": "# more on this page", "search.result.none": "No matching documents", "search.result.one": "1 matching document", "search.result.other": "# matching documents", "search.result.placeholder": "Type to start searching", "search.result.term.missing": "Missing", "select.version": "Select version"}}</script>
+    
+    
+      <script src="../assets/javascripts/bundle.aecac24b.min.js"></script>
+      
+    
+  </body>
+</html>
